@@ -7,7 +7,7 @@ Three sets of experiment were conducted, one set for each of the conditions:
 1. ideal conditions
    1. the $\alpha$ vector has identical elements, $\alpha_i$ = 20 for all i
 2. ill-conditioned 
-   1. $\alpha$ vector will be split into two groups {i,j} with different values
+   1. $\alpha$ vector will be split into two groups $\{i,j\}$ with different values
       1. first group: $\alpha_i$ = 1
       2. second group: $\alpha_j$ = 40
 3. flat curvature
