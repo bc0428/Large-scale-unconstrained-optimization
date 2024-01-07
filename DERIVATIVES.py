@@ -1,4 +1,3 @@
-import nibabel.spatialimages
 import numpy as np
 from CONSTANTS import *
 

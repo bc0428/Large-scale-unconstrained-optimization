@@ -117,10 +117,11 @@ This project consists of three types of files:
 <p>First order methods take a lot more steps than they usually do in other problems above, since line search along a flat line would inherently take small steps at a time. </p>
 <p>On the other hand, all second order methods have overlapping steps, and they are able to converge in just a handful of steps. One possible explanation of such behavior is that with flat curvatures, the hessian is near-singular and the second order taylor approximation is basically reduced to first order approximation. Such method is therefore computationally inexpensive on an approximately linear curve, which results in the number of steps and time taken that is even less than that in ideal conditions. </p>
 
+## 4. Reflection 
+Credit to Prof. Z. Friggstad for his invaluable feedback. 
+This project investigates performance of several algorithms on large scales problem. To allow flexibility of the problem condition, I opt for a rather simple objective function that is completely separable. Yet I overlooked the fitness of algorithms to solve this type of objective functions, that is quasi-newton methods or limited memory methods does not posses a significant advantage when the hessian of the problem is easily invertible, in fact the overhead of hessian approximation might make them an inferior algorithm when compared to the vanilla Newton's method. Therefore, it is expected that the results would be more meaningful when the objective function has a dense hessian, where the large-scale methods shine.
 
-
-
-## 4. Corresponding filename of optimization algorithms 
+## 5. Corresponding filename of optimization algorithms 
 
 | Filename           | Algorithm                             |
 |--------------------|---------------------------------------|
