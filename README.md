@@ -11,7 +11,7 @@ Three sets of experiment were conducted, one set for each of the conditions:
       1. first group: $\alpha_i$ = 1
       2. second group: $\alpha_j$ = 40
 3. flat curvature
-   1. the $\alpha$ vector has identical, large elements, alpha_i = 80 for all i
+   1. the $\alpha$ vector has identical, large elements, $\alpha_i$ = 80 for all i
 
 In each condition, we quantify and compare the performance of methods by the following characteristics:
    1. Steps required for convergence
