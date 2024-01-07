@@ -5,13 +5,13 @@
 ### Conditions
 Three sets of experiment were conducted, one set for each of the conditions:
 1. ideal conditions
-   1. the alpha vector has identical elements, alpha_i = 20 for all i
+   1. the $\alpha$ vector has identical elements, $\alpha_i$ = 20 for all i
 2. ill-conditioned 
-   1. alpha vector will be split into two groups {i,j} with different values
-      1. first group: alpha_i = 1
-      2. second group: alpha_j = 40
+   1. $\alpha$ vector will be split into two groups {i,j} with different values
+      1. first group: $\alpha_i$ = 1
+      2. second group: $\alpha_j$ = 40
 3. flat curvature
-   1. the alpha vector has identical, large elements, alpha_i = 80 for all i
+   1. the $\alpha$ vector has identical, large elements, alpha_i = 80 for all i
 
 In each condition, we quantify and compare the performance of methods by the following characteristics:
    1. Steps required for convergence
@@ -24,7 +24,7 @@ In each condition, we quantify and compare the performance of methods by the fol
 2. Convergence tolerance = 1e-1, i.e. the algorithm terminates when successive iterations improve no more than 0.1 in the objective function
 3. Backtracking parameters are chosen by trial and error, for algorithms to converge during backtracking line search
 
-Due to the simplicity of the objective function, we know that the optimal solution is at the origin, with optimal cost = 2*n, i.e. 10,000. 
+Due to the simplicity of the objective function, we know that the optimal solution is at the origin, with optimal cost = $2n$, i.e. 10,000. 
 <br><br>
 Note: This experiment does not include the 'separable function approach' due to the completely separable nature of this problem, which is rare in practice. Therefore, little meaningful conclusion can be drawn. 
 
